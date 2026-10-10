@@ -1,0 +1,20 @@
+# Env and secrets (never commit)
+.env
+.env.local
+.env.*.local
+**/secrets/
+**/*service-account*.json
+**/*firebase-adminsdk*.json
+
+# Firebase CLI
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Next.js
+.next/
+out/
+
+# Dependencies
+node_modules/
