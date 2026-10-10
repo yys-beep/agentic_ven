@@ -1,0 +1,50 @@
+[debug] [2026-10-10T19:56:25.454Z] ----------------------------------------------------------------------
+[debug] [2026-10-10T19:56:25.457Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\win11\CodeBuddy\frontend\node_modules\firebase-tools\lib\bin\firebase.js apphosting:backends:create
+[debug] [2026-10-10T19:56:25.457Z] CLI Version:   13.35.1
+[debug] [2026-10-10T19:56:25.457Z] Platform:      win32
+[debug] [2026-10-10T19:56:25.457Z] Node Version:  v22.14.0
+[debug] [2026-10-10T19:56:25.457Z] Time:          Sun Oct 11 2026 03:56:25 GMT+0800 (Malaysia Time)
+[debug] [2026-10-10T19:56:25.458Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-10-10T19:56:25.645Z] Checked if tokens are valid: true, expires at: 1791663575624
+[debug] [2026-10-10T19:56:25.646Z] Checked if tokens are valid: true, expires at: 1791663575624
+[debug] [2026-10-10T19:56:25.647Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/agentic-vendor/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-10-10T19:56:25.647Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/agentic-vendor/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/agentic-vendor
+[debug] [2026-10-10T19:56:27.314Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/agentic-vendor/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-10-10T19:56:27.314Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/agentic-vendor/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-10-10T19:56:27.315Z] Checked if tokens are valid: true, expires at: 1791663575624
+[debug] [2026-10-10T19:56:27.315Z] Checked if tokens are valid: true, expires at: 1791663575624
+[debug] [2026-10-10T19:56:27.315Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/agentic-vendor/services/firebaseapphosting.googleapis.com:enable [none]
+[debug] [2026-10-10T19:56:27.315Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/agentic-vendor/services/firebaseapphosting.googleapis.com:enable x-goog-quota-user=projects/agentic-vendor
+[debug] [2026-10-10T19:56:29.659Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/agentic-vendor/services/firebaseapphosting.googleapis.com:enable 400
+[debug] [2026-10-10T19:56:29.659Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/agentic-vendor/services/firebaseapphosting.googleapis.com:enable [omitted]
+[debug] [2026-10-10T19:56:34.679Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\win11\CodeBuddy\frontend\node_modules\firebase-tools\lib\utils.js:269:49)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-10T19:58:29.946Z] ----------------------------------------------------------------------
+[debug] [2026-10-10T19:58:29.949Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\win11\CodeBuddy\frontend\node_modules\firebase-tools\lib\bin\firebase.js apphosting:backends:create --debug
+[debug] [2026-10-10T19:58:29.949Z] CLI Version:   13.35.1
+[debug] [2026-10-10T19:58:29.949Z] Platform:      win32
+[debug] [2026-10-10T19:58:29.949Z] Node Version:  v22.14.0
+[debug] [2026-10-10T19:58:29.950Z] Time:          Sun Oct 11 2026 03:58:29 GMT+0800 (Malaysia Time)
+[debug] [2026-10-10T19:58:29.950Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-10-10T19:58:30.172Z] Checked if tokens are valid: true, expires at: 1791663575624
+[debug] [2026-10-10T19:58:30.173Z] Checked if tokens are valid: true, expires at: 1791663575624
+[debug] [2026-10-10T19:58:30.175Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/agentic-vendor/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-10-10T19:58:30.176Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/agentic-vendor/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/agentic-vendor
+[debug] [2026-10-10T19:58:31.868Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/agentic-vendor/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-10-10T19:58:31.869Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/agentic-vendor/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-10-10T19:58:31.870Z] Checked if tokens are valid: true, expires at: 1791663575624
+[debug] [2026-10-10T19:58:31.870Z] Checked if tokens are valid: true, expires at: 1791663575624
+[debug] [2026-10-10T19:58:31.871Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/agentic-vendor/services/firebaseapphosting.googleapis.com:enable [none]
+[debug] [2026-10-10T19:58:31.872Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/agentic-vendor/services/firebaseapphosting.googleapis.com:enable x-goog-quota-user=projects/agentic-vendor
+[debug] [2026-10-10T19:58:33.348Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/agentic-vendor/services/firebaseapphosting.googleapis.com:enable 400
+[debug] [2026-10-10T19:58:33.348Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/agentic-vendor/services/firebaseapphosting.googleapis.com:enable [omitted]
+[error] 
+[error] Error: Your project agentic-vendor must be on the Blaze (pay-as-you-go) plan to complete this command. Required API firebaseapphosting.googleapis.com can't be enabled until the upgrade is complete. To upgrade, visit the following URL:
+
+https://console.firebase.google.com/project/agentic-vendor/usage/details
